@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+sub {
+  vertical-align: baseline;
+}
+#container {
+  width: 1635px;
+  margin: 0 auto;
+  text-align: center;
+}
+#container .content__product__wrap {
+  background-color: #fff;
+  width: 225px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  box-shadow: 0 13px 10px -7px rgba(0,0,0,0.2);
+}
+#container .content__product__wrap:first-child {
+  margin-left: 0;
+}
+@media only screen and (max-width: 1635px) {
+  #container {
+    width: 100%;
+  }
+}
+img {
+  border-radius: 8px 8px 0 0;
+}
+.content__product {
+  border-radius: 0 0 8px 8px;
+}
+.content--productName {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: #2757b0;
+  padding-top: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.content--productPrice {
+  font-size: 22px;
+  font-family: "Myriad Pro";
+  color: #000;
+  font-weight: bold;
+  padding-top: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.content__productPrice,
+.content__productName {
+  height: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.content__product {
+  background-color: #f2f5f8;
+  margin-top: -14px;
+}
